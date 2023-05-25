@@ -2,7 +2,6 @@
 #define MONTY_H
 
 
-
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -26,10 +25,6 @@ typedef struct stack_s
 	struct stack_s *next;
 } _stack_t;
 
-
-_stack_t *add_dnodeint(_stack_t **head, const int n);
-void delete_dnodeint_at_end(_stack_t **head);
-_stack_t *add_dnodeint_end(_stack_t **head, const int n);
 
 /**
  * struct queue_s - doubly linked list representation of a stack (or queue)
